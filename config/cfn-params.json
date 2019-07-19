@@ -1,0 +1,10 @@
+{
+    "SourceS3BucketParameter" : "video-analyzer-2019",
+    "ImageProcessorSourceS3KeyParameter" : "src/lambda_imageprocessor.zip",
+    "FrameFetcherSourceS3KeyParameter" : "src/lambda_framefetcher.zip",
+    "FrameS3BucketNameParameter" : "video-analyzer-2019-frame",
+    "FrameFetcherApiResourcePathPart" : "enrichedframe",
+    "ApiGatewayRestApiNameParameter" : "VidAnalyzerRestApi",
+    "ApiGatewayStageNameParameter": "development",
+    "ApiGatewayUsagePlanNameParameter" : "development-plan"
+}

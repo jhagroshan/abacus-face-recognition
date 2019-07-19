@@ -1,0 +1,16 @@
+{
+	"s3_bucket" : "video-analyzer-2019-frame",
+	"s3_key_frames_root" : "frames/",
+
+	"ddb_table" : "EnrichedFrame",
+
+	"rekog_max_labels" : 123,
+    "rekog_min_conf" : 50.0,
+
+	"label_watch_list" : ["Human", "Pet", "Bag", "Toy"],
+	"label_watch_min_conf" : 90.0,
+	"label_watch_phone_num" : "+61435278953",
+    "label_watch_sns_topic_arn" : "arn:aws:sns:ap-southeast-2:583783158077:sms-stuff",
+
+	"timezone" : "US/Eastern"
+}
